@@ -1,0 +1,8 @@
+4.7
+
+It is posssible to define functions using with a variable number of arguments.
+There are three forms, which can be combined.
+
+1.  The most useful is to specify a default value for one or more arguments.
+
+
