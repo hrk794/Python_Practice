@@ -3,7 +3,7 @@
 def f1(a, L=[]):
     L.append(a)
     return L
-# The default value is evaluated once when the funtcion is called for the first time, and the new value is passed to the subsequent calls of the function. 
+# The default value is evaluated once when the function is called for the first time, and the new value is passed to the subsequent calls of the function. 
 
 print(f1(1))
 print(f1(2))
