@@ -14,6 +14,6 @@ Thus, the default value is evaluated when the function is called for the first t
 Important:
 All keyword arguments must follow the positional arguments. All keyword arguments passed must match one of the arguments accepted by the function; their order is not important.
 
-The final formal parameter of the form **name provides the fuction with a dictionary. This may be combined with a formal parameter of the form *name  which receives a tuple containing the positional arguments beyond the formal parameter list.
+The final formal parameter of the form **name provides the fuction with a dictionary. This may be combined with a formal parameter of the form *name  which receives a tuple containing the positional arguments beyond the formal parameter list. The Python3 Tutorial for Python 3.7.1 claims that the order in which the keyword arguments are printed is guaranteed to match the order in which they were provided in the function call. My experience with Python 3.5.2 is not so.
 
 3. 
