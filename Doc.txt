@@ -16,4 +16,9 @@ All keyword arguments must follow the positional arguments. All keyword argument
 
 The final formal parameter of the form **name provides the fuction with a dictionary. This may be combined with a formal parameter of the form *name  which receives a tuple containing the positional arguments beyond the formal parameter list. The Python3 Tutorial for Python 3.7.1 claims that the order in which the keyword arguments are printed is guaranteed to match the order in which they were provided in the function call. My experience with Python 3.5.2 is not so.
 
-3. 
+3. Function can be called with an arbitrary number of arguments. These arguments will be wrapped up in a tuple . Before the variable number of arguments, zero or more normal arguments may occur. The notation is *args. 
+
+Normally, these variadic arguments will be last in the list of formal parameters, because they scoop up all remaining input arguments that are passed to the function. Any formal parameters which occur after the *args parameter are ‘keyword-only’ arguments, meaning that they can only be used as keywords rather than positional arguments. see arbit_arg_list.py
+
+
+
