@@ -115,4 +115,4 @@ print(a)
 print(hex(id(list)))
 print(hex(id(a)))
 
-# Note that the copy method creates a different object as oppaosed to a new pointer to the same object.
+# Note that the copy method creates a different object as opposed to a new pointer to the same object.

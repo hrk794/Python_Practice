@@ -79,3 +79,10 @@ Return a shallow copy of the list. Equivalent to a[:].
 See list_methods.py
 
 
+5.1.1   Using Lists as Stacks
+
+Stacks follow Last in First Out Rule
+
+The list methods append and pop are used to achieve this behaviour
+
+
