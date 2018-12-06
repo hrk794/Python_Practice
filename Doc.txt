@@ -81,8 +81,17 @@ See list_methods.py
 
 5.1.1   Using Lists as Stacks
 
-Stacks follow Last in First Out Rule
+Stacks follow Last In First Out Rule
 
-The list methods append and pop are used to achieve this behaviour
+The list methods append and pop are used to achieve this behaviour, See lists_as_stacks.py
 
+5.1.2   Using Lists as Queues
+
+Queues follow the Fisrt In First Out rule
+
+List are not efficient for this purpose, as appends and pops from end of list are fast, but inserts and pops at the beginning are slow.
+
+So, we may use collections.deque (pronounced as deck)
+
+See lists_as_queues.py
 
