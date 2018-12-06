@@ -90,3 +90,29 @@ print(list.count('three'))
 print(list.count('two'))
 
 
+# The sort method list.sort(key=None, reverse=False)
+# Sort the items of the list in place (the arguments can be used for sort customization, see sorted() for their explanation).
+
+list.sort()
+
+print(list)
+
+
+# The reverse method
+
+list.reverse()
+
+print(list)
+
+# The copy method
+
+a = list.copy()
+
+#Return a shallow copy of the list. Equivalent to a[:].
+
+print(a)
+
+print(hex(id(list)))
+print(hex(id(a)))
+
+# Note that the copy method creates a different object as oppaosed to a new pointer to the same object.
