@@ -116,4 +116,18 @@ The simplest form of a list comprehension is:
 This will step over every element of sequence, successively setting loop-variable equal to every element one at a time, and will then build up a list by evaluating expression-involving-loop-variable for each one. This eliminates the need to use lambda forms, and thus generally produces a much more readable code than using map() and a more compact code than using a for-loop. See simple_list_comprehension.py
 
 
+Nested List Comprehensions
+
+List comprehensions can be nested, in which case they take on the following form:
+
+[ expression-involving-loop-variables for outer-loop-variable in outer-sequence for inner-loop-variable in inner-sequence ]
+
+This is equivalent to writing:
+
+results = []
+for outer_loop_variable in outer_sequence:
+    for inner_loop_variable in inner_sequence:
+        results.append( expression_involving_loop_variables )
+
+See nested_list_comprehensions.py
 
