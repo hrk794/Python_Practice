@@ -102,3 +102,18 @@ See lists_as_queues.py
 
 List Comprehensions provide concise way to create lists. Common applications are to make new lists where each element is the result of 
 some operations applied to each member of another sequence or iterable, or to create a subsequence of elements that satisfy a certain condition.
+
+
+I suggest reading http://www.u.arizona.edu/~erdmann/mse350/topics/list_comprehensions.html#list-comprehensions for better understanding of this topic in addition to
+the text in the tutorial at https://docs.python.org/3.7/tutorial/datastructures.html#list-comprehensions 
+
+Simple List Comprehensions
+
+The simplest form of a list comprehension is:
+
+[ expression-involving-loop-variable for loop-variable in sequence ]
+
+This will step over every element of sequence, successively setting loop-variable equal to every element one at a time, and will then build up a list by evaluating expression-involving-loop-variable for each one. This eliminates the need to use lambda forms, and thus generally produces a much more readable code than using map() and a more compact code than using a for-loop. See simple_list_comprehension.py
+
+
+
