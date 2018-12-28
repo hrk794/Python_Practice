@@ -131,3 +131,11 @@ for outer_loop_variable in outer_sequence:
 
 See nested_list_comprehensions.py
 
+
+
+5.2     The Del statement
+
+Del can be used to remove an item from a list given its index instead of its value (list.remove(value) does that!) 
+
+This differs from pop() thatreturn the value of the item (del does not). Del can be used to remove slices or clear an entire list.
+Also used to delete (as the name suggests) entire variables. See del_statement.py
