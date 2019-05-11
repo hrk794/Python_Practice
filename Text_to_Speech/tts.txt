@@ -1,2 +1,0 @@
-Hello.
-This is a text converted to speech using the Python programming language and its libraries.
